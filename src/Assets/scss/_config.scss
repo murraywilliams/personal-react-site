@@ -1,0 +1,49 @@
+/*
+vars
+*/
+$black: #222222;
+$lightGrey: #F4F4F4;
+$darkGrey: #353535;
+$crimson: #FF214F;
+
+/*  Fonts -
+
+light 300
+regular 400
+bold 700
+
+*/
+
+/*
+  Mixins
+*/
+
+@mixin translateY($e) {
+  -webkit-transform: translateY($e);
+    -moz-transform: translateY($e);
+      transform: translateY($e);
+}
+
+@mixin transition($e) {
+  -webkit-transition: $e;
+    -moz-transition: $e;
+      transition: $e;
+}
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 14px;
+  color: $black;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  @include transition(.4s ease-in-out);
+  cursor: pointer;
+}
+
+.container-fluid {
+  line-height: 24px;
+}

@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+
+// includes
+import logo from '../../Assets/images/site-logo-crimson.png';
 
 class Header extends Component {
   render() {
@@ -6,19 +10,22 @@ class Header extends Component {
       <header>
 
         <div className="logo">
-          logo
+          <img src={logo} alt=""/>
         </div>
 
         <nav>
           <ul>
-            <li>
-              <a href="#">Home</a>
+            <li className="first">
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="#">My Work</a>
+              <Link to="/my-work">My Work</Link>
             </li>
             <li>
-              <a href="#">About Me</a>
+              <Link to="/about-me">About Me</Link>
+            </li>
+            <li className="last">
+              <Link to="/get-in-touch">Get in Touch</Link>
             </li>
           </ul>
         </nav>

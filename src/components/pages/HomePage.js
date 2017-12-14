@@ -21,7 +21,7 @@ class HomePage extends Component {
           </div>
         </div>
         <div className="row">
-          <h2>A LITTLE BIT ABOUT ME</h2>
+          <h2 className="section-heading">A LITTLE BIT ABOUT ME</h2>
           <p>I design and develop experiences that make people’s lives simple. I find the web an exciting place with a constant pull & push to innovate—you don’t have to brave it alone.</p>
         </div>
         <div className="row">
@@ -37,7 +37,7 @@ class HomePage extends Component {
           </div>
         </div>
         <div className="row">
-          <h2>MY AREAS OF EXPERTISE</h2>
+          <h2 className="section-heading">MY AREAS OF EXPERTISE</h2>
         </div>
         <div className="row">
         <div className="col-md-3">

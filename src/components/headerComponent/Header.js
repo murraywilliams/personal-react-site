@@ -18,15 +18,15 @@ class Header extends Component {
             <li className="first">
               <Link to="/">Home</Link>
             </li>
-            <li>
+            {/*<li>
               <Link to="/my-work">My Work</Link>
-            </li>
+            </li>*/}
             <li>
               <Link to="/about-me">About Me</Link>
             </li>
-            <li className="last">
+            {/*<li className="last">
               <Link to="/get-in-touch">Get in Touch</Link>
-            </li>
+          </li>*/}
           </ul>
         </nav>
 

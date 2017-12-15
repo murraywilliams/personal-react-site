@@ -8,7 +8,7 @@ class Footer extends Component {
     return (
       <footer>
       <div className="logo"><img src={logo} alt=""/></div>
-        <p>Designed & developed by Murray Williams - Built with the power of <span>ReactJS</span>.</p>
+        <p>Designed & developed by Murray Williams - Powered by <span>ReactJS</span>.</p>
       </footer>
     );
   }

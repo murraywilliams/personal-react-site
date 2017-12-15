@@ -1,12 +1,13 @@
 @import '_config.scss';
 
 header {
-  position: relative;
+  position: fixed;
   display: block;
   width: 100%;
   background: $black;
   color: white;
   height: 90px;
+  z-index: 1;
 
   .logo {
     position: absolute;

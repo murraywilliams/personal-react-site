@@ -8,9 +8,17 @@ $crimson: #FF214F;
 
 /*  Fonts -
 
-light 300
+Roboto+Mono:
+light 300,
 regular 400
-bold 700
+
+Rubik:
+bold 700,
+black 900
+
+*/
+
+/* Images -
 
 */
 
@@ -30,11 +38,19 @@ bold 700
       transition: $e;
 }
 
+@mixin background($imgpath,$position:center center,$repeat: no-repeat) {
+  background: {
+      image: url($imgpath);
+      position: $position;
+      repeat: $repeat;
+  }
+}
+
 body {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Roboto Mono', monospace;
   font-size: 14px;
   color: $black;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
 }
 
@@ -46,4 +62,8 @@ a {
 
 .container-fluid {
   line-height: 24px;
+}
+
+h1,h3 {
+  font-family: 'Rubik', sans-serif;
 }

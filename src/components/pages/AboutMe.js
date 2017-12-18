@@ -32,13 +32,41 @@ class AboutMe extends Component {
             <p>Hello, I'm a digital enthusiast from Cape Town, South Africa. When I'm not pushing pixels around you'll find me riding waves, being a father and/or husband.</p>
           </div>
         </div>
+        <div id="work-history">
+          <div className="col-md-6">
+          </div>
+          <div className="col-md-6 no-padding">
+            <div class="work-history">
+              <div class="work">
+                <h2>01</h2>
+                <h3>VentureWeb</h3>
+                <p>Senior Digital Manager <br/>2010 - Present</p>
+              </div>
+              <div class="work">
+                <h2>02</h2>
+                <h3>CreataBrand</h3>
+                <p>Owner <br/>2008 - 2010</p>
+              </div>
+              <div class="work">
+                <h2>03</h2>
+                <h3>MiWay</h3>
+                <p>Marketing Coordinator <br/>2005 - 2006</p>
+              </div>
+              <div class="work">
+                <h2>04</h2>
+                <h3>Gecho</h3>
+                <p>Graphic Designer <br/>2005 - 2006</p>
+              </div>
+            </div>
+          </div>
+        </div>
         <div id="quote-section" className="col-md-12">
           <h2 className="cover-heading">The future is alread here -<br/> it's just not evenly distributed </h2>
             <p className="lead">~ William Gibson</p>
         </div>
         <div className="container">
           <div className="row">
-            <h2 className="section-heading">MY TOOLS OF CHOICE.</h2>
+            <h2 className="section-heading">TOOLS OF CHOICE.</h2>
           </div>
           <div className="row">
             <div className="col-md-3">

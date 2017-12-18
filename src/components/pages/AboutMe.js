@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import htmLogo from '../../Assets/images/tool-logos/html-css-js-logo.jpg';
 import gitLogo from '../../Assets/images/tool-logos/git-logo.jpg';
-import meteorLogo from '../../Assets/images/tool-logos/meteor-logo.jpg';
+import herokuLogo from '../../Assets/images/tool-logos/heroku-logo.jpg';
 import reactLogo from '../../Assets/images/tool-logos/react-logo.jpg';
 import sassLogo from '../../Assets/images/tool-logos/sass-logo.jpg';
 import sketchLogo from '../../Assets/images/tool-logos/sketch-logo.jpg';
@@ -73,27 +73,27 @@ class AboutMe extends Component {
               <img src={htmLogo} alt="" />
             </div>
             <div className="col-md-3">
-              <img src={gitLogo} alt="" />
-            </div>
-            <div className="col-md-3">
               <img src={reactLogo} alt="" />
             </div>
             <div className="col-md-3">
               <img src={sassLogo} alt="" />
             </div>
+            <div className="col-md-3">
+              <img src={wordpressLogo} alt="" />
+            </div>
           </div>
           <div className="row">
             <div className="col-md-3">
-              <img src={sketchLogo} alt="" />
+              <img src={gitLogo} alt="" />
+            </div>
+            <div className="col-md-3">
+              <img src={herokuLogo} alt="" />
             </div>
             <div className="col-md-3">
               <img src={vscLogo} alt="" />
             </div>
             <div className="col-md-3">
-              <img src={meteorLogo} alt="" />
-            </div>
-            <div className="col-md-3">
-              <img src={wordpressLogo} alt="" />
+              <img src={sketchLogo} alt="" />
             </div>
           </div>
         </div>

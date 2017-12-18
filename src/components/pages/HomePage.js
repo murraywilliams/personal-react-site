@@ -25,7 +25,7 @@ class HomePage extends Component {
           </div>
         </div>
         <div className="container">
-          <div className="row">
+          <div id="intro-copy" className="row">
             <h2 className="section-heading">A LITTLE BIT ABOUT ME.</h2>
             <p>I design and develop experiences that make people’s lives simple. I find the web an exciting place with a constant pull & push to innovate—you don’t have to brave it alone.</p>
           </div>

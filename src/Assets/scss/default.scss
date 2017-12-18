@@ -72,6 +72,11 @@ header {
   width: 100%;
 }
 
+.banner-copy {
+  margin: 0 auto;
+  width: 30%;
+}
+
 #quote-section {
   background: #FF214F;
   color: white;
@@ -133,7 +138,10 @@ h1 {
   h1 {
     margin-top: 140px;
   }
-
+  p {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 
 footer {

@@ -3,9 +3,7 @@ import { Link } from 'react-router-dom';
 
 import htmLogo from '../../Assets/images/tool-logos/html-css-js-logo.jpg';
 import gitLogo from '../../Assets/images/tool-logos/git-logo.jpg';
-import jqueryLogo from '../../Assets/images/tool-logos/jquery-logo.jpg';
 import meteorLogo from '../../Assets/images/tool-logos/meteor-logo.jpg';
-import nodeLogo from '../../Assets/images/tool-logos/node-logo.jpg';
 import reactLogo from '../../Assets/images/tool-logos/react-logo.jpg';
 import sassLogo from '../../Assets/images/tool-logos/sass-logo.jpg';
 import sketchLogo from '../../Assets/images/tool-logos/sketch-logo.jpg';
@@ -21,7 +19,9 @@ class AboutMe extends Component {
             <div id="about-intro" className="row">
               <div className="col-md-12">
                 <h1>ABOUT ME.</h1>
-                <p>It's only through creation can I truly master my craft</p>
+                  <div className="banner-copy">
+                    <p>It's only through creation can I truly master my craft</p>
+                  </div>
               </div>
             </div>
           </div>
@@ -29,7 +29,7 @@ class AboutMe extends Component {
         <div className="container">
           <div className="row">
             <h2 className="section-heading">GET TO KNOW ME.</h2>
-            <p>Hello, I'm a pixel transformist from Cape Town, South Africa. When I'm not pushing pixels around you'll find me riding waves, being a father and/or husband.</p>
+            <p>Hello, I'm a digital enthusiast from Cape Town, South Africa. When I'm not pushing pixels around you'll find me riding waves, being a father and/or husband.</p>
           </div>
         </div>
         <div id="quote-section" className="col-md-12">
@@ -65,7 +65,7 @@ class AboutMe extends Component {
               <img src={meteorLogo} alt="" />
             </div>
             <div className="col-md-3">
-              <img src={nodeLogo} alt="" />
+              <img src={wordpressLogo} alt="" />
             </div>
           </div>
         </div>
